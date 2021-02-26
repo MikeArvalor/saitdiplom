@@ -1,10 +1,4 @@
-// Swticher Cookie Base
-/**
- * Styleswitch stylesheet switcher built on jQuery
- * Under an Attribution, Share Alike License
- * By Kelvin Luck ( http://www.kelvinluck.com/ )
- * Thanks for permission! 
- **/
+
 (function($){
 	$(document).ready(function() {
 		$('.styleswitch').click(function(){
@@ -57,7 +51,6 @@ function eraseCookie(name){
 	createCookie(name,"",-1);
 }
 
-// DEMO Swticher Base
 jQuery('.demo_changer .demo-icon').click(function(){
 	if(jQuery('.demo_changer').hasClass("active")){
 		jQuery('.demo_changer').animate({"left":"-70px"},function(){

@@ -1,18 +1,4 @@
-/*!
- * Isotope PACKAGED v2.2.2
- *
- * Licensed GPLv3 for open source use
- * or Isotope Commercial License for commercial use
- *
- * http://isotope.metafizzy.co
- * Copyright 2015 Metafizzy
- */
 
-/**
- * Bridget makes jQuery widgets
- * v1.1.0
- * MIT license
- */
 
 ( function( window ) {
 
