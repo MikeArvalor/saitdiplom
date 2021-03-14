@@ -2007,7 +2007,7 @@ color: #fff;
 }
 .img-responsive{
     height: 220px;
-    border: 1px solid #888;
+    
     width: 100%;
      
 }
@@ -2194,4 +2194,5 @@ text-align: center;
   .list_problem span{
       font-weight: bold;
   }
+  
   
