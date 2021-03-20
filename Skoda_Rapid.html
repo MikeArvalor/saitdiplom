@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Запись на тест-драйв</title>
+
+		<link href="css/master.css" rel="stylesheet">
+        <link href="css/car_showroom.css" rel="stylesheet">
+		<link rel="stylesheet" id="switcher-css" type="text/css" href="assets/switcher/css/switcher.css" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color1.css" title="color1" media="all" data-default-color="true"  />
+		<link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color2.css" title="color2" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color3.css" title="color3" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color4.css" title="color4" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color5.css" title="color5" media="all" />
+	</head>
+	<body>
+		<div id="page-preloader"><span class="spinner"></span></div>
+		<nav class="top-nav">
+			<div class="container">
+				<div class="top-nav__main">
+					<div class="row">
+						
+						<div class="col-md-12 col-xs-12">
+							<div class="main-nav navbar-main-slide">
+								
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<ul class="collapse navbar-collapse navbar-nav-menu" id="nav">
+									<li class="dropdown">
+										<a class="no-decoration" href="index.html">Главная</a><span class="main-nav__separator">
+										<span class="main-nav__separator"><span></span><span></span><span></span></span>
+										
+									</li>
+                                    <li><a class="no-decoration" href="STO.html">СТО</a><span class="main-nav__separator"><span></span><span></span><span></span></span></li>
+                                    <li><a class="no-decoration" href="Car_showroom.html">Автосалон</a><span class="main-nav__separator"><span></span><span></span><span></span></span></li>
+                                    <li><a class="no-decoration" href="Brend.html">Тест-драйв</a><span class="main-nav__separator"><span></span><span></span><span></span></span></li>
+									<li><a class="no-decoration" href="contact.html">Контакты</a><span></span><span></span><span></span></span></li>
+									
+								</ul>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav><!--top-nav-->
+		<div class="tab1">
+			<button class="tablinks" onclick="openCity(event, 'model')" >Модели</button>
+			<button class="tablinks" onclick="openCity(event, 'complect')" id="defaultOpen">Комплектация</button>
+			<button class="tablinks" onclick="openCity(event, 'color')">Цвет кузова</button>
+			<button class="tablinks" onclick="openCity(event, 'option')">Опции</button>
+		  </div>
+		  
+		  <div id="model" class="tabcontent">
+			<div class="car_list">
+			</div>
+		
+		  </div>
+		  
+		  <div id="complect" class="tabcontent">
+			<div class="card_skoda">
+
+<div class="img_skoda_info"><img src="images/car_showroom/skoda_card_about1.png" /></div>
+<div class="header_card_info_skoda col-xs-6">
+	<p class="text_header1">Rapid Entry</p>
+	<ul class="list_card">
+		<li>2-спицевое рулевое колесо</li>
+		<li>Центральный замок с дистанционным управлением</li>
+		<li>Передние электростеклоподъемники</li>
+		<li>4 динамика</li>
+		<li>2 USB-C спереди</li>
+	</ul>
+
+</div>
+			</div>
+		  </div>
+		  <div id="color" class="tabcontent">
+			  <div class="car_list"></div>
+			 
+		  </div>
+		  <div id="option" class="tabcontent">
+			<div class="car_list"></div>
+			
+		</div>
+		<div class="footer-bottom-home" >
+			<div  class="container">
+				
+				<div class="col-xs-12 wow slideInRight" data-wow-delay="0.7s" data-wow-duration="1.5s" style="margin-top: 30px;">
+					<div class="social social--footer social--footer-home pull-right clearfix">
+						<a href="#" class="social__one square">
+							<span class="fa fa-twitter"></span>
+						</a>
+						<a href="#" class="social__one square">
+							<span class="fa fa-facebook"></span>
+						</a>
+						<a href="#" class="social__one square">
+							<span class="fa fa-google-plus"></span>
+						</a>
+						<a href="#" class="social__one square">
+							<span class="fa fa-pinterest"></span>
+						</a>
+						<a href="#" class="social__one square">
+							<span class="fa fa-instagram"></span>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+			<div class="footer-bottom-home">
+				<div  class="container">
+					<div class="copyright wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="1.5s">
+						<p>&copy; Web-Developer Mihail <span>СТО</span> | <span>Автолизинг </span> Все права защищены</p>
+				</div>
+			</div>
+			<a id="to-top" href="#header-top"><i class="fa fa-chevron-up"></i></a>
+	
+	
+			<script>
+				function openCity(evt, cityName) {
+					var i, tabcontent, tablinks;
+					tabcontent = document.getElementsByClassName("tabcontent");
+					for (i = 0; i < tabcontent.length; i++) {
+						tabcontent[i].style.display = "none";
+					}
+					tablinks = document.getElementsByClassName("tablinks");
+					for (i = 0; i < tablinks.length; i++) {
+						tablinks[i].className = tablinks[i].className.replace(" active", "");
+					}
+					document.getElementById(cityName).style.display = "block";
+					evt.currentTarget.className += " active";
+				}
+				
+				// Get the element with id="defaultOpen" and click on it
+				document.getElementById("defaultOpen").click();
+				</script>
+			<script src="js/jquery-1.11.3.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/modernizr.custom.js"></script>
+			<!--Counter-->
+			<script src="assets/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+			<script src="js/waypoints.min.js"></script>
+			<script src="js/jquery.easypiechart.min.js"></script>
+			<script src="js/classie.js"></script>
+			<!--Switcher-->
+			<script src="assets/switcher/js/switcher.js"></script>		
+			<!--Owl Carousel-->
+			<script src="assets/owl-carousel/owl.carousel.min.js"></script>		
+			<!--bxSlider-->
+			<script src="assets/bxslider/jquery.bxslider.min.js"></script>		
+			<!-- jQuery UI Slider -->
+			<script src="assets/slider/jquery.ui-slider.js"></script>		
+			<!--Isotope-->
+			<script src="assets/isotope/isotope.js"></script>
+			<!--Slider-->
+			<script src="assets/slider/jquery.ui-slider.js"></script>		
+			<!--Fancybox-->
+			<script src="assets/fancybox/jquery.fancybox.pack.js"></script>
+			<!--Theme-->
+			<script src="js/jquery.smooth-scroll.js"></script>
+			<script src="js/wow.min.js"></script>
+			<script src="js/jquery.placeholder.min.js"></script>
+			<script src="js/theme.js"></script>		
+	</body>
+</html>

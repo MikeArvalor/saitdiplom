@@ -1,3 +1,4 @@
+
 .images__one{
 
     position: relative;
@@ -308,6 +309,7 @@ margin-top: 50px;
 .header_test_drive{
   margin-left: 110px;
   margin-top: 50px;
+  margin-bottom: 70px;
 }
 .header_test_drive1{
   font-size: 25px;
@@ -317,3 +319,245 @@ margin-top: 50px;
   width: 250px;
   padding: 10px;
 }
+.card_list_info4{
+  border: 1px solid #b2b2b2;
+background: #fff;
+  padding: 10px;
+  margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card_list_info4 img{
+  width: 380px;
+}
+.card_list_info4 p{
+  font-size: 27px;
+}
+.card_list_info4 a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.card_list_info4 a:hover{
+  text-decoration: none;
+  color: rgb(19, 67, 224);
+}
+.form_style{
+  line-height: 30px;
+  padding-top: 40px;
+}
+.text_person{font-size: 20px;}
+.style_for_form input{
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.style_for_check{
+ margin-top: 20px;
+ font-size: 16px;
+}
+.submit{
+  width: 15%;
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 15px;
+  background: rgb(19, 67, 224);
+}
+.submit:hover{
+  background: rgb(67, 240, 45);
+}
+.btn_sub{
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+.header_text_model_skoda{
+  text-align: center;
+  font-size: 34px;
+  
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.model_card {
+  margin-top: 50px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 520px 460px 380px;
+ 
+}
+.model_card2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 380px 460px 520px;
+ 
+ 
+}
+.img_model1{
+  width: 100%;
+  height: 66.5%;
+}
+.img_model2{
+  width: 100%;
+ 
+}
+.img_model3{
+  width: 100%;
+  height:66.5%;
+}
+.img_model4{
+  width: 100%;
+  height: 80%;
+}
+.img_model5{
+  width: 100%;
+  height: 80%;
+}
+.img_model6{
+  width: 100%;
+  height: 80%;
+
+}
+.images__model{
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.images__model a { 
+  display: none;
+  position: absolute; 
+  margin-left: 50px;
+  background-color: rgb(67, 240, 45);
+  border-radius: 25px;
+  padding: 10px;
+
+  color: #fff;
+  text-align: center;
+}
+.images__model:hover a{
+  display: block;
+  font-size:14px;
+  width: 100%;
+list-style-type: none;
+text-decoration: none;
+z-index: 10000;
+}
+.images__model:hover:after {
+  content:"";
+  position: absolute;
+ 
+ 
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 10000px rgba(0,0,0, 0.4);
+}
+
+
+.images__model ul { 
+
+  position: absolute; 
+bottom: 35px; left: 0px; 
+text-decoration: none;
+list-style-type: none;
+  padding: 55px 55px 5px 20px;
+  color: #fff;
+}
+.hr_model{
+  justify-content: center;
+  width: 90%;
+  color: #b2b2b2;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.footer_model_list{
+  display: grid;
+  grid-template-columns: 450px 550px 450px;
+  margin-left: 25px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+.footer_list_info ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+.footer_list_info a{
+  text-decoration: none;
+  color: #000;
+}
+.footer_list_info a:hover{
+  color: rgb(67, 240, 45);
+}
+.tab1 {
+  overflow: hidden;
+}
+.tab1 button{
+  margin-left: 70px;
+}
+.bookmarks{
+  color: #000;
+  background: #fff;
+}
+.tab1 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+.tab1 button:hover {
+color: rgb(67, 240, 45);
+}
+
+
+.tab1 button.active {
+  color: rgb(67, 240, 45);
+}
+
+
+.tab1content {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+.card_skoda{
+  margin: 0 auto;
+  border: 1px solid #000;
+  background-color: #fff;
+  width: 1000px;
+  height: 800px;
+background: url(..//images/car_showroom/fon.png) no-repeat right;
+
+}
+.img_skoda_info{
+  float: right;  
+}
+.text_header1{
+  font-size: 18px;
+  font-weight: bold;
+ text-transform: uppercase;
+ margin-left: 25px;
+}
+.header_card_info_skoda{
+  margin-top: 25px;
+}
+.list_card{
+  line-height: 30px;
+  list-style-type: circle;
+
+}
+.list_card li {
+  list-style-type: none; 
+ }
+ .list_card li:before {
+   content: "\25cb";
+   color: rgb(67, 240, 45);
+
+  padding-right: 10px; 
+ }
